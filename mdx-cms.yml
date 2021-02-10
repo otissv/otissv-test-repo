@@ -1,1 +1,5 @@
 branch: main
+ui: components
+folders:
+  - posts
+  - data
