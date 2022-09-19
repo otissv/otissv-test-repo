@@ -1,10 +1,8 @@
 ---
 required: 
-  - branch
   - folders
 ---
 
-branch: main
 ui: components
 folders:
   - posts
