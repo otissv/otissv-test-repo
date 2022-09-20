@@ -1,1 +1,4 @@
-
+ui: components
+folders:
+  - posts
+  - content
