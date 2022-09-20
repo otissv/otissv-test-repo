@@ -2,4 +2,4 @@ branch: main
 ui: components
 folders:
   - posts
-  - content
+  - data
