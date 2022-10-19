@@ -1,11 +1,12 @@
 ---
+# Meta
 saved: 2022-09-20T13:40:34.261Z
 updated: 2022-09-20T13:40:34.261Z
 savedBy: Me
 updatedBy: Me
 
 ---
-
+# Data
 - seo:
     title: Contact
     description: description here.
@@ -13,32 +14,32 @@ updatedBy: Me
 - contact:
     heading: Contact
     lead: Let's chat
-    content: ""
-    location: " my house"
+    content: ''
+    location: ' my house'
 - form:
     heading: Porozmawiajmy
     fields:
       email:
         id: CONTACT_EMAIL
         label: Email
-        value: ""
+        value: ''
         placeholder: Email
-        error: ""
+        error: ''
         type: email
         required: true
       subject:
         id: CONTACT_SUBJECT
         label: subject
         placeholder: Subject
-        value: ""
-        error: ""
+        value: ''
+        error: ''
         required: true
       message:
         id: CONTACT_MESSAGE
         label: message
         placeholder: Message
-        value: ""
-        error: ""
+        value: ''
+        error: ''
         required: true
       honeypot:
         id: CONTACT_NAME
@@ -46,4 +47,22 @@ updatedBy: Me
         placeholder: Name
     button: Send
 
-  
+---
+# Schema
+
+- seo:
+    title: Textbox
+    description: Textbox
+    author: Textbox
+- contact:
+    heading: Textbox
+    lead: Textbox
+    content: MarkDown
+    location: Textbox
+- form:
+    heading: Textbox
+    fields:
+      email: FormTextboxField
+      subject: FormTextboxField
+      message: FormTextboxField
+    button: Button
