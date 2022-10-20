@@ -51,26 +51,26 @@ updatedBy: Me
 # Schema
 
 - seo:
-    - fields:
-        - { id: 'title', label: 'Title', component: 'Textbox' }
-        - { id: 'description', label: 'Description', component: 'Textbox' }
-        - { id: 'author', label: 'Author', component: 'Textbox' }
+    fields:
+      - { id: 'title', label: 'Title', component: 'Textbox' }
+      - { id: 'description', label: 'Description', component: 'Textbox' }
+      - { id: 'author', label: 'Author', component: 'Textbox' }
 - contact:
-    - fields:
-        - { id: 'heading', label: 'heading', component: 'Textbox' }
-        - { id: 'lead', label: 'lead', component: 'Textbox' }
-        - { id: 'content', label: 'content', component: 'MarkDown' }
-        - { id: 'location', label: 'location', component: 'Textbox' }
+    fields:
+      - { id: 'heading', label: 'heading', component: 'Textbox' }
+      - { id: 'lead', label: 'lead', component: 'Textbox' }
+      - { id: 'content', label: 'content', component: 'MarkDown' }
+      - { id: 'location', label: 'location', component: 'Textbox' }
 - form:
-    - fields:
-        - { id: 'heading', label: 'heading', component: 'Textbox' }
-        - fields:
-            - {
-                id: 'email',
-                label: 'Email',
-                type: 'email',
-                compoent: 'FormTextboxField',
-              }
-            - { id: 'subject', label: 'Subject', compoent: 'FormTextboxField' }
-            - { id: 'message', label: 'Message', compoent: 'FormTextAreaField' }
-            - { id: 'submit', type: 'button', compoent: Button' }
+    fields:
+      - { id: 'heading', label: 'heading', component: 'Textbox' }
+      - fields:
+          - {
+              id: 'email',
+              label: 'Email',
+              type: 'email',
+              compoent: 'FormTextboxField',
+            }
+          - { id: 'subject', label: 'Subject', compoent: 'FormTextboxField' }
+          - { id: 'message', label: 'Message', compoent: 'FormTextAreaField' }
+          - { id: 'submit', type: 'button', compoent: Button' }
