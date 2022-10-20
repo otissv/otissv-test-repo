@@ -51,26 +51,27 @@ updatedBy: Me
 # Schema
 
 - seo:
+    heading: 'SEO'
     fields:
-      - { id: 'title', label: 'Title', component: 'Textbox' }
-      - { id: 'description', label: 'Description', component: 'Textbox' }
-      - { id: 'author', label: 'Author', component: 'Textbox' }
-- contact:
-    fields:
-      - { id: 'heading', label: 'heading', component: 'Textbox' }
-      - { id: 'lead', label: 'lead', component: 'Textbox' }
-      - { id: 'content', label: 'content', component: 'MarkDown' }
-      - { id: 'location', label: 'location', component: 'Textbox' }
-- form:
-    fields:
-      - { id: 'heading', label: 'heading', component: 'Textbox' }
-      - fields:
-          - {
-              id: 'email',
-              label: 'Email',
-              type: 'email',
-              compoent: 'FormTextboxField',
-            }
-          - { id: 'subject', label: 'Subject', compoent: 'FormTextboxField' }
-          - { id: 'message', label: 'Message', compoent: 'FormTextAreaField' }
-          - { id: 'submit', type: 'button', compoent: Button' }
+      - { id: 'title', label: 'Title', component: 'FormTextbox' }
+      - { id: 'description', label: 'Description', component: 'FormTextbox' }
+      - { id: 'author', label: 'Author', component: 'FormTextbox' }
+# - contact:
+#     fields:
+#       - { id: 'heading', label: 'heading', component: 'FormTextbox' }
+#       - { id: 'lead', label: 'lead', component: 'FormTextbox' }
+#       - { id: 'content', label: 'content', component: 'MarkDown' }
+#       - { id: 'location', label: 'location', component: 'FormTextbox' }
+# - form:
+#     fields:
+#       - { id: 'heading', label: 'heading', component: 'FormTextbox' }
+#       - fields:
+#           - {
+#               id: 'email',
+#               label: 'Email',
+#               type: 'email',
+#               compoent: 'FormFormTextboxField',
+#             }
+#           - { id: 'subject', label: 'Subject', compoent: 'FormFormTextboxField' }
+#           - { id: 'message', label: 'Message', compoent: 'FormTextAreaField' }
+#           - { id: 'submit', type: 'button', compoent: Button' }
