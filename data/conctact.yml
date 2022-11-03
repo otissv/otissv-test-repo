@@ -53,9 +53,27 @@ updatedBy: Me
 - seo:
     heading: 'SEO'
     fields:
-      - { id: 'title', label: 'Title', component: 'FormTextbox' }
-      - { id: 'description', label: 'Description', component: 'FormTextbox' }
-      - { id: 'author', label: 'Author', component: 'FormTextbox' }
+      - {
+          id: 'title',
+          label: 'Title',
+          component: 'FormTextbox',
+          error: '',
+          required: true,
+        }
+      - {
+          id: 'description',
+          label: 'Description',
+          component: 'FormTextbox',
+          error: '',
+          required: true,
+        }
+      - {
+          id: 'author',
+          label: 'Author',
+          component: 'FormTextbox',
+          error: '',
+          required: true,
+        }
 # - contact:
 #     fields:
 #       - { id: 'heading', label: 'heading', component: 'FormTextbox' }
