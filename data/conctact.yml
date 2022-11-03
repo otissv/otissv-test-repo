@@ -57,22 +57,25 @@ updatedBy: Me
           id: 'title',
           label: 'Title',
           component: 'FormTextbox',
-          error: '',
           required: true,
+          error: '',
+          value: '',
         }
       - {
           id: 'description',
           label: 'Description',
           component: 'FormTextbox',
-          error: '',
           required: true,
+          error: '',
+          value: '',
         }
       - {
           id: 'author',
           label: 'Author',
           component: 'FormTextbox',
-          error: '',
           required: true,
+          error: '',
+          value: '',
         }
 # - contact:
 #     fields:
